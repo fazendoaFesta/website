@@ -1,0 +1,51 @@
+.wrapper {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerText {
+  line-height: 1.6;
+  color: var(--gray-600);
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.containerText p {
+  margin-top: 1rem;
+}
+
+.containerItens {
+  line-height: 1.6;
+  color: var(--gray-600);
+  margin-top: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-content: center;
+    flex-wrap: wrap;
+}
+.test {
+  align-self: center;
+}
+
+.logo {
+  width:80%;
+  width:80%;
+}
+
+.containerCaroulsel {
+  height: 500px;
+  width:80%;
+  display: flex;
+  padding-bottom: 10rem 2rem;
+  margin-top: 5rem;
+}

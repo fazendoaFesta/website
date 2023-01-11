@@ -1,0 +1,30 @@
+.footer {
+
+    
+    display: flex;
+    background: var(--gray-600);
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+header img {
+    height: 2rem;
+}
+
+.logo {
+    height: 500px;
+    width: 500px; 
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .button:hover { 
+    background: var(--green);
+}

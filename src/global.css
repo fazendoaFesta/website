@@ -1,0 +1,40 @@
+:root {
+    --white: #ffffff;
+
+    --gray-100: #e1e1e6;
+    --gray-300: #808080;
+    --gray-400: #8d8d99;
+    --gray-500: #262626;
+    --gray-600: #4F4F4F;
+    --gray-700: #29292e;
+    --gray-800: #202024;
+    --gray-900: #121214;
+    
+    --green: #17e9ed;
+    --blue-dark: #1E6F9F;
+
+    --red-500: #F75A68;
+}
+
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--blue-dark);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: var(--gray-300);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
